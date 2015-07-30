@@ -15,14 +15,14 @@ var BE = {};
 BE.APPLICATION
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 BE.Application = function () {
-	
+  
 };
 
 /* . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  
 initialize
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . */
-BE.Application.prototype.initialize = function() {	
-	
+BE.Application.prototype.initialize = function() {
+  console.log('BE.Application.initialize');  
 };
 
 

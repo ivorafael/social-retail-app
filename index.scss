@@ -1,0 +1,19 @@
+$grid-gutter-width: 0 !default;
+@import "compass";
+@import '.meteor/local/build/programs/server/assets/packages/reywood_bootstrap3-sass/bootstrap';
+
+body {  
+  header {
+    @include make-xs-column(8);
+    @include make-xs-column-offset(2);
+    color: #333;
+    display: block;
+    background: #ddd;
+  }
+
+  .foo {
+    @include make-xs-column(8);
+    @include make-xs-column-offset(2);
+    background: #eee;
+  }
+}

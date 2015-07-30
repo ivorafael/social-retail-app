@@ -1,2 +1,4 @@
 .meteor/local
 .meteor/meteorite
+.sass-cache
+Gemfile.lock
